@@ -1,4 +1,4 @@
-Your final project files (html, css, images, etc) should go in here. **One of those files should be called index.html**: it will become your landing page. (Otherwise, your site will land on this readme.)
+Your final project files (html, css, images, etc) should go in here. **One of those files should be called index.html**: it will become your landing page. (Otherwise, your site will land on this readme; probably not what you intended!)
 
 You can then publish this site to the open web: First, go to your repository's Settings and select "Pages" in the margin.
 
