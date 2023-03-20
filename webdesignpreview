@@ -1,0 +1,16 @@
+nav ul {
+    color: rgb(160, 194, 205);
+    list-style-type: none;
+    display: flex;
+    padding: 3em;
+}
+
+h1 {
+    color: #4b8568;
+}
+
+html {
+    background-color: rgb(225, 225, 215);
+}
+
+li { margin-left: 10px 0;}
