@@ -14,46 +14,91 @@
 
 .menu {
     border: 1px solid burlywood;
-    width: 900px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
+    font-size: 2em;
 }
 
 .header-container {
     color: white;
-    background-color: darkgrey;
-    display: flex;
-    justify-content: center;
+    background-color: rosybrown;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 1fr 1fr;
 }
 
 .header {
-    width: 900px;
-    height: 200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    background-color: rosybrown;
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 15em;
 }
 
 .footer {
+    background-color: burlywood;
+    color: white;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    height: 2em;
+    width: 100%;
 }
 
-.footer-item {
-    border: 1px solid #fff;
-    background-color: burlywood;
-    height: 100px;
-    flex: 1;
-    color: white;
-}
-.email {
-    flex: 2;
+.background {
+color: antiquewhite;
+padding: 1em;
+background-color: rosybrown;
 }
 
-.email, .socials {
-    background-color: darkgray;
-    flex: initial;
-    width: 300px;
+.grid-even-columns { /* did to figure out how to fix this issue*/
+    color: antiquewhite;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+    padding-top: 1em;
 }
 
+img {
+    max-width: 30em; 
+    max-height: 30em;
+}
+
+.writing {
+    color: antiquewhite;
+    background-color: rosybrown;
+}
+
+.press-releases {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    padding-top: 3em;
+    padding-right: 1em;
+}
+
+video {
+   max-width: 30em;
+   min-height: 30em;
+}
+
+.christmascamp {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+
+.myexperience {
+    color: antiquewhite;
+    background-color: rosybrown;
+    display: grid;
+}
+
+.experiencepage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: rosybrown;
+    color: antiquewhite;
+    padding-left: 1em;
+    padding-top: 1em;
+}
