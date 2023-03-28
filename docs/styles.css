@@ -92,7 +92,7 @@ video {
     gap: 1em;
 }
 
-.myexperience {
+.myexperience, .social-media {
     color: antiquewhite;
     background-color: rosybrown;
     display: grid;
