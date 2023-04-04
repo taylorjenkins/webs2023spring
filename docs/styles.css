@@ -46,7 +46,6 @@
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 2em;
     width: 100%;
     padding: 1em;
 }
@@ -63,6 +62,12 @@ background-color: rosybrown;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1em;
     padding-top: 1em;
+}
+@media (min-width: 50em) {
+    .grid-even-columns {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 img {
@@ -99,7 +104,7 @@ video {
     margin-top: 1em;
 }
 
-.myexperience, .social-media {
+.social-media {
     color: antiquewhite;
     background-color: rosybrown;
     display: grid;
@@ -127,4 +132,10 @@ video {
 }
 .link-footer:hover {
     color: rosybrown;
+}
+
+body {
+    min-height: 100dvh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
 }
