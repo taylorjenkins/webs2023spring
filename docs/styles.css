@@ -139,3 +139,41 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
 }
+
+.box {
+    display: flexbox;
+    flex-direction: column;
+}
+
+@media (min-width: 50em) {
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+}
+
+.home-icon {
+    display: flex;
+    justify-content: left;
+}
+
+@media (min-width: 50em) {
+.content-writing {
+ display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1em;
+    row-gap: 1em;
+    gap: 1em;
+}
+}
