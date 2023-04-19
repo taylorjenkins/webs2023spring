@@ -8,8 +8,10 @@
     color: #fff;
     background-color: burlywood;
     padding: 20px 0;
-    display: flex;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center; 
+    max-height: 6em;
 }
 
 .menu {
@@ -24,6 +26,7 @@
 .header-container {
     color: white;
     background-color: rosybrown;
+    padding: 1em;
 }
 
 .header {
@@ -108,6 +111,7 @@ video {
     color: antiquewhite;
     background-color: rosybrown;
     display: grid;
+    padding: 1em;
 }
 
 .experiencepage {
@@ -163,11 +167,6 @@ body {
 }
 }
 
-.home-icon {
-    display: flex;
-    justify-content: left;
-}
-
 @media (min-width: 50em) {
 .content-writing {
  display: grid;
@@ -176,4 +175,22 @@ body {
     row-gap: 1em;
     gap: 1em;
 }
+}
+
+.home-icon {
+    justify-self: left;
+    padding: 1em;
+}
+
+.title {
+    justify-self: center;
+}
+
+.nav-menu {
+    color: #fff;
+    background-color: burlywood;
+    padding: 2px 0;
+    display: flex;
+    justify-content: center;
+    max-height: 6em;
 }
